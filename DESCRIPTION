@@ -1,0 +1,12 @@
+Package: GwasAnalyst
+Type: Package
+Title: This package performs GWAS in a fast and efficient manner
+Version: 0.1.0
+Author: Djibo Waziri, Aichatou; Richard Manasseh
+Maintainer: Djibo Waziri, Aichatou <a.djibowaziri@wsu.edu>
+Description: This package can run GWAS with PCA and user supplied covariates. It reduces false positives and increases the power of a GWAS by accounting for population structure.
+License: GPL-3 
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2, knitr, gridExtra, data.table, factoextra, mgcv
+RoxygenNote: 7.1.1
